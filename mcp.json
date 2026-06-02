@@ -3,7 +3,7 @@
     "desktop-commander": {
       "command": "node",
       "args": [
-        "/home/raka/mcp-servers/DesktopCommanderMCP/dist/index.js"
+        "/home/raka/mcp-arwaky/comander-arwaky/dist/index.js"
       ]
     }
   }

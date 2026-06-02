@@ -64,7 +64,7 @@ If you prefer to release manually or need to troubleshoot, follow these steps:
 
 - Node.js 18+ installed
 - NPM account with publish permissions to `@wonderwhy-er/desktop-commander`
-- GitHub account with access to `wonderwhy-er/DesktopCommanderMCP`
+- GitHub account with access to `wonderwhy-er/comander-arwaky`
 - `mcp-publisher` CLI tool installed: `brew install mcp-publisher`
 
 ## Publishing Process
@@ -153,7 +153,7 @@ curl -s "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.wo
 
 ### 6. Create GitHub Release (Optional but Recommended)
 
-1. Go to https://github.com/wonderwhy-er/DesktopCommanderMCP/releases
+1. Go to https://github.com/wonderwhy-er/comander-arwaky/releases
 2. Click "Create a new release"
 3. Select the tag you just created (`vX.Y.Z`)
 4. Fill in release notes with:
@@ -222,7 +222,7 @@ curl -s "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.wo
 - **NPM Package**: https://www.npmjs.com/package/@wonderwhy-er/desktop-commander
 - **MCP Registry**: https://registry.modelcontextprotocol.io/
 - **Server ID**: `490703ba-12b3-48d8-81ef-056010280a9a`
-- **GitHub Repository**: https://github.com/wonderwhy-er/DesktopCommanderMCP
+- **GitHub Repository**: https://github.com/wonderwhy-er/comander-arwaky
 
 ## Version Sync Script Details
 

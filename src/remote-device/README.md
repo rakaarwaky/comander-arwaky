@@ -35,8 +35,8 @@ Install the module globally to run it from anywhere:
 
 1.  **Clone the Repository**:
     ```bash
-    git clone https://github.com/wonderwhy-er/DesktopCommanderMCP.git
-    cd DesktopCommanderMCP/src/remote-device
+    git clone https://github.com/wonderwhy-er/comander-arwaky.git
+    cd comander-arwaky/src/remote-device
     ```
 
 2.  **Install Dependencies**:
@@ -65,8 +65,8 @@ Run from the project repository without global installation:
 
 1.  **Clone the Repository**:
     ```bash
-    git clone https://github.com/wonderwhy-er/DesktopCommanderMCP.git
-    cd DesktopCommanderMCP
+    git clone https://github.com/wonderwhy-er/comander-arwaky.git
+    cd comander-arwaky
     ```
 
 2.  **Install Dependencies**:

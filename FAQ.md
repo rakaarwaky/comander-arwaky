@@ -413,7 +413,7 @@ Command blocking exists but can be bypassed through various methods. The current
 
 ### How do I report security vulnerabilities?
 
-Please create a [GitHub Issue](https://github.com/wonderwhy-er/DesktopCommanderMCP/issues) with detailed information about any security vulnerabilities you discover. See our [Security Policy](SECURITY.md) for full guidelines.
+Please create a [GitHub Issue](https://github.com/wonderwhy-er/comander-arwaky/issues) with detailed information about any security vulnerabilities you discover. See our [Security Policy](SECURITY.md) for full guidelines.
 
 Claude Desktop Commander doesn't have a pre-defined blocklist, but you can use the `block_command` and `unblock_command` functions to manage which commands Claude can execute. It's recommended to block commands that could potentially be destructive, such as `rm -rf` or `format`.
 

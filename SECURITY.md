@@ -32,7 +32,7 @@ As a startup focused on user needs rather than theoretical security concerns, we
 
 ## Contact
 
-- **GitHub Issues**: https://github.com/wonderwhy-er/DesktopCommanderMCP/issues
+- **GitHub Issues**: https://github.com/wonderwhy-er/comander-arwaky/issues
 - **Discord Community**: https://discord.gg/kQ27sNnZr7
 
 ---

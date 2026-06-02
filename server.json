@@ -4,7 +4,7 @@
   "title": "Desktop Commander",
   "description": "MCP server for terminal commands, file operations, and process management",
   "repository": {
-    "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+    "url": "https://github.com/wonderwhy-er/comander-arwaky",
     "source": "github"
   },
   "version": "0.2.37",

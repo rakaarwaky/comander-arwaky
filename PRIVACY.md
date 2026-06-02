@@ -154,7 +154,7 @@ We may update this privacy policy from time to time. When we do, we will publish
 
 ## Contact
 
-- **General questions**: Open an issue on our [GitHub repository](https://github.com/wonderwhy-er/DesktopCommanderMCP)
+- **General questions**: Open an issue on our [GitHub repository](https://github.com/wonderwhy-er/comander-arwaky)
 - **Privacy concerns**: privacy@desktopcommander.app
 
 We aim to respond to privacy inquiries within 30 days.

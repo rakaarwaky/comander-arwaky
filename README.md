@@ -3,7 +3,7 @@
 
 [![npm downloads](https://img.shields.io/npm/dw/@wonderwhy-er/desktop-commander)](https://www.npmjs.com/package/@wonderwhy-er/desktop-commander)
 [![AgentAudit Verified](https://agentaudit.dev/api/badge/desktop-commander)](https://agentaudit.dev/skills/desktop-commander)
-[![Trust Score](https://archestra.ai/mcp-catalog/api/badge/quality/wonderwhy-er/DesktopCommanderMCP)](https://archestra.ai/mcp-catalog/wonderwhy-er__desktopcommandermcp)
+[![Trust Score](https://archestra.ai/mcp-catalog/api/badge/quality/wonderwhy-er/comander-arwaky)](https://archestra.ai/mcp-catalog/wonderwhy-er__desktopcommandermcp)
 [![smithery badge](https://smithery.ai/badge/@wonderwhy-er/desktop-commander)](https://smithery.ai/server/@wonderwhy-er/desktop-commander)
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-yellow.svg)](https://www.buymeacoffee.com/wonderwhyer)
 
@@ -132,7 +132,7 @@ Restart Claude if running.
 <summary><b>Option 2: Using bash script installer (macOS) ⭐ Auto-Updates (Installs Node.js if needed)</b></summary>
 
 ```
-curl -fsSL https://raw.githubusercontent.com/wonderwhy-er/DesktopCommanderMCP/refs/heads/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/wonderwhy-er/comander-arwaky/refs/heads/main/install.sh | bash
 ```
 This script handles all dependencies and configuration automatically.
 
@@ -190,8 +190,8 @@ Restart Claude if running.
 <summary><b>Option 5: Checkout locally ❌ Manual Updates (Requires Node.js)</b></summary>
 
 ```bash
-git clone https://github.com/wonderwhy-er/DesktopCommanderMCP.git
-cd DesktopCommanderMCP
+git clone https://github.com/wonderwhy-er/comander-arwaky.git
+cd comander-arwaky
 npm run setup
 ```
 Restart Claude if running.
@@ -199,7 +199,7 @@ Restart Claude if running.
 The setup command will install dependencies, build the server, and configure Claude's desktop app.
 
 **❌ Auto-Updates:** No - requires manual git updates  
-**🔄 Manual Update:** `cd DesktopCommanderMCP && git pull && npm run setup`  
+**🔄 Manual Update:** `cd comander-arwaky && git pull && npm run setup`  
 **🗑️ Uninstall:** Run `npx @wonderwhy-er/desktop-commander@latest remove` or remove the cloned directory and MCP server entry from Claude config
 
 </details>
@@ -213,12 +213,12 @@ Perfect for users who want isolation or don't have Node.js installed. Runs in a 
 
 **macOS/Linux:**
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/wonderwhy-er/DesktopCommanderMCP/refs/heads/main/install-docker.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/wonderwhy-er/comander-arwaky/refs/heads/main/install-docker.sh)
 ```
 
 **Windows PowerShell:**
 ```powershell
-iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wonderwhy-er/DesktopCommanderMCP/refs/heads/main/install-docker.ps1'))
+iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wonderwhy-er/comander-arwaky/refs/heads/main/install-docker.ps1'))
 ```
 
 The installer will check Docker, pull the image, prompt for folder mounting, and configure Claude Desktop.
@@ -286,27 +286,27 @@ The installer will check Docker, pull the image, prompt for folder mounting, and
 **macOS/Linux:**
 ```bash
 # Check status
-bash <(curl -fsSL https://raw.githubusercontent.com/wonderwhy-er/DesktopCommanderMCP/refs/heads/main/install-docker.sh) --status
+bash <(curl -fsSL https://raw.githubusercontent.com/wonderwhy-er/comander-arwaky/refs/heads/main/install-docker.sh) --status
 
 # Reset all persistent data
-bash <(curl -fsSL https://raw.githubusercontent.com/wonderwhy-er/DesktopCommanderMCP/refs/heads/main/install-docker.sh) --reset
+bash <(curl -fsSL https://raw.githubusercontent.com/wonderwhy-er/comander-arwaky/refs/heads/main/install-docker.sh) --reset
 ```
 
 **Windows PowerShell:**
 ```powershell
 # Check status
-$script = (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wonderwhy-er/DesktopCommanderMCP/refs/heads/main/install-docker.ps1'); & ([ScriptBlock]::Create("$script")) -Status
+$script = (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wonderwhy-er/comander-arwaky/refs/heads/main/install-docker.ps1'); & ([ScriptBlock]::Create("$script")) -Status
 
 # Reset all data
-$script = (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wonderwhy-er/DesktopCommanderMCP/refs/heads/main/install-docker.ps1'); & ([ScriptBlock]::Create("$script")) -Reset
+$script = (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wonderwhy-er/comander-arwaky/refs/heads/main/install-docker.ps1'); & ([ScriptBlock]::Create("$script")) -Reset
 
 # Show help
-$script = (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wonderwhy-er/DesktopCommanderMCP/refs/heads/main/install-docker.ps1'); & ([ScriptBlock]::Create("$script")) -Help
+$script = (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wonderwhy-er/comander-arwaky/refs/heads/main/install-docker.ps1'); & ([ScriptBlock]::Create("$script")) -Help
 ```
 
 **Troubleshooting:** Reset and reinstall from scratch:
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/wonderwhy-er/DesktopCommanderMCP/refs/heads/main/install-docker.sh) --reset && bash <(curl -fsSL https://raw.githubusercontent.com/wonderwhy-er/DesktopCommanderMCP/refs/heads/main/install-docker.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/wonderwhy-er/comander-arwaky/refs/heads/main/install-docker.sh) --reset && bash <(curl -fsSL https://raw.githubusercontent.com/wonderwhy-er/comander-arwaky/refs/heads/main/install-docker.sh)
 ```
 
 </details>
@@ -356,14 +356,14 @@ Add to `~/.codeium/windsurf/mcp_config.json`. See [Windsurf MCP docs](https://do
 
 Add to `.vscode/mcp.json` in your project or VS Code User Settings (JSON). Make sure MCP is enabled under Chat > MCP. Works in Agent mode.
 
-See [VS Code MCP docs](https://code.visualstudio.com/docs/copilot/chat/mcp-servers) for more info.
+See [VS Code MCP docs](https://code.visualstudio.com/docs/copilot/chat/mcp-arwaky) for more info.
 
 </details>
 
 <details>
 <summary><b>Cline</b></summary>
 
-Configure through the Cline extension settings in VS Code. Open the Cline sidebar, click the MCP Servers icon, and add the JSON configuration above. See [Cline MCP docs](https://docs.cline.bot/mcp/configuring-mcp-servers) for more info.
+Configure through the Cline extension settings in VS Code. Open the Cline sidebar, click the MCP Servers icon, and add the JSON configuration above. See [Cline MCP docs](https://docs.cline.bot/mcp/configuring-mcp-arwaky) for more info.
 
 </details>
 
@@ -495,7 +495,7 @@ How it works:
 **Options 1 (npx), Option 2 (bash installer), 3 (Smithery), 4 (manual config), and 6 (Docker)** automatically update to the latest version whenever you restart Claude. No manual intervention needed.
 
 ### Manual Updates (Option 5)
-- **Option 5 (local checkout):** `cd DesktopCommanderMCP && git pull && npm run setup`
+- **Option 5 (local checkout):** `cd comander-arwaky && git pull && npm run setup`
 
 ### Uninstalling Desktop Commander
 #### 🤖 Automatic Uninstallation (Recommended)
@@ -945,7 +945,7 @@ Created as part of exploring Claude MCPs: https://youtube.com/live/TlbjFDbl5Us
       <li>🌟 <a href="https://github.com/sponsors/wonderwhy-er"><strong>GitHub Sponsors</strong></a> - Recurring support</li>
       <li>☕ <a href="https://www.buymeacoffee.com/wonderwhyer"><strong>Buy Me A Coffee</strong></a> - One-time contributions</li>
       <li>💖 <a href="https://www.patreon.com/c/EduardsRuzga"><strong>Patreon</strong></a> - Become a patron and support us monthly</li>
-      <li>⭐ <a href="https://github.com/wonderwhy-er/DesktopCommanderMCP"><strong>Star on GitHub</strong></a> - Help others discover the project</li>
+      <li>⭐ <a href="https://github.com/wonderwhy-er/comander-arwaky"><strong>Star on GitHub</strong></a> - Help others discover the project</li>
     </ul>
   </div>
 </div>
@@ -1036,7 +1036,7 @@ If you find this project useful, please consider giving it a ⭐ star on GitHub!
 
 We welcome contributions from the community! Whether you've found a bug, have a feature request, or want to contribute code, here's how you can help:
 
-- **Found a bug?** Open an issue at [github.com/wonderwhy-er/DesktopCommanderMCP/issues](https://github.com/wonderwhy-er/DesktopCommanderMCP/issues)
+- **Found a bug?** Open an issue at [github.com/wonderwhy-er/comander-arwaky/issues](https://github.com/wonderwhy-er/comander-arwaky/issues)
 - **Have a feature idea?** Submit a feature request in the issues section
 - **Want to contribute code?** Fork the repository, create a branch, and submit a pull request
 - **Questions or discussions?** Start a discussion in the GitHub Discussions tab
@@ -1069,10 +1069,10 @@ Yes, when installed through npx or Smithery, Desktop Commander automatically upd
 - Making surgical code changes with precise control
 
 ### I'm having trouble installing or using the tool. Where can I get help?
-Join our [Discord server](https://discord.gg/kQ27sNnZr7) for community support, check the [GitHub issues](https://github.com/wonderwhy-er/DesktopCommanderMCP/issues) for known problems, or review the [full FAQ](FAQ.md) for troubleshooting tips. You can also visit our [website FAQ section](https://desktopcommander.app#faq) for a more user-friendly experience. If you encounter a new issue, please consider [opening a GitHub issue](https://github.com/wonderwhy-er/DesktopCommanderMCP/issues/new) with details about your problem.
+Join our [Discord server](https://discord.gg/kQ27sNnZr7) for community support, check the [GitHub issues](https://github.com/wonderwhy-er/comander-arwaky/issues) for known problems, or review the [full FAQ](FAQ.md) for troubleshooting tips. You can also visit our [website FAQ section](https://desktopcommander.app#faq) for a more user-friendly experience. If you encounter a new issue, please consider [opening a GitHub issue](https://github.com/wonderwhy-er/comander-arwaky/issues/new) with details about your problem.
 
 ### How do I report security vulnerabilities?
-Please create a [GitHub Issue](https://github.com/wonderwhy-er/DesktopCommanderMCP/issues) with detailed information about any security vulnerabilities you discover. See our [Security Policy](SECURITY.md) for complete guidelines on responsible disclosure.
+Please create a [GitHub Issue](https://github.com/wonderwhy-er/comander-arwaky/issues) with detailed information about any security vulnerabilities you discover. See our [Security Policy](SECURITY.md) for complete guidelines on responsible disclosure.
 
 ## Data Collection & Privacy
 
