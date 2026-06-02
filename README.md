@@ -1,10 +1,10 @@
-# Desktop Commander MCP
+# Comander Arwaky
 ### Search, update, manage files and run terminal commands with AI
 
-[![npm downloads](https://img.shields.io/npm/dw/@wonderwhy-er/desktop-commander)](https://www.npmjs.com/package/@wonderwhy-er/desktop-commander)
-[![AgentAudit Verified](https://agentaudit.dev/api/badge/desktop-commander)](https://agentaudit.dev/skills/desktop-commander)
+[![npm downloads](https://img.shields.io/npm/dw/@wonderwhy-er/comander-arwaky)](https://www.npmjs.com/package/@wonderwhy-er/comander-arwaky)
+[![AgentAudit Verified](https://agentaudit.dev/api/badge/comander-arwaky)](https://agentaudit.dev/skills/comander-arwaky)
 [![Trust Score](https://archestra.ai/mcp-catalog/api/badge/quality/wonderwhy-er/comander-arwaky)](https://archestra.ai/mcp-catalog/wonderwhy-er__desktopcommandermcp)
-[![smithery badge](https://smithery.ai/badge/@wonderwhy-er/desktop-commander)](https://smithery.ai/server/@wonderwhy-er/desktop-commander)
+[![smithery badge](https://smithery.ai/badge/@wonderwhy-er/comander-arwaky)](https://smithery.ai/server/@wonderwhy-er/comander-arwaky)
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-yellow.svg)](https://www.buymeacoffee.com/wonderwhyer)
 
 
@@ -14,14 +14,14 @@
 Work with code and text, run processes, and automate tasks, going far beyond other AI editors - while using host client subscriptions instead of API token costs.
 
 <a href="https://glama.ai/mcp/servers/zempur9oh4">
-  <img width="380" height="200" src="https://glama.ai/mcp/servers/zempur9oh4/badge" alt="Desktop Commander MCP" />
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/zempur9oh4/badge" alt="Comander Arwaky" />
 </a>
 
 ## 👋 We’re hiring — come build with us: https://desktopcommander.app/careers/
 
-## 🖥️ Try the Desktop Commander App (Beta)
+## 🖥️ Try the Comander Arwaky App (Beta)
 
-**Want a better experience?** The Desktop Commander App gives you everything the MCP server does, plus:
+**Want a better experience?** The Comander Arwaky App gives you everything the MCP server does, plus:
 
 - **Use any AI model** — Claude, GPT-4.5, Gemini 2.5, or any model you prefer
 - **See file changes live** — visual file previews as AI edits your files
@@ -39,7 +39,7 @@ Work with code and text, run processes, and automate tasks, going far beyond oth
 - [Usage](#usage)
 - [Handling Long-Running Commands](#handling-long-running-commands)
 - [Work in Progress and TODOs](#roadmap)
-- [Sponsors and Supporters](#support-desktop-commander)
+- [Sponsors and Supporters](#support-comander-arwaky)
 - [Website](#website)
 - [Media](#media)
 - [Testimonials](#testimonials)
@@ -48,12 +48,12 @@ Work with code and text, run processes, and automate tasks, going far beyond oth
 - [License](#license)
 
 All of your AI development tools in one place.
-Desktop Commander puts all dev tools in one chat.
+Comander Arwaky puts all dev tools in one chat.
 Execute long-running terminal commands on your computer and manage processes through Model Context Protocol (MCP). Built on top of [MCP Filesystem Server](https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem) to provide additional search and replace file editing capabilities.
 
 ## Features
 
-- **Remote AI Control** - Use Desktop Commander from ChatGPT, Claude web, and other AI services via [Remote MCP](https://mcp.desktopcommander.app)
+- **Remote AI Control** - Use Comander Arwaky from ChatGPT, Claude web, and other AI services via [Remote MCP](https://mcp.desktopcommander.app)
 - **File Preview UI** - Visual file previews in Claude Desktop with rendered markdown, inline images, expandable content, and quick "Open in folder" access
 - **Enhanced terminal commands with interactive process control**
 - **Execute code in memory (Python, Node.js, R) without saving files**
@@ -99,7 +99,7 @@ Execute long-running terminal commands on your computer and manage processes thr
 
 ### Install in Claude Desktop
 
-Desktop Commander offers multiple installation methods for Claude Desktop.
+Comander Arwaky offers multiple installation methods for Claude Desktop.
 
 > **📋 Update & Uninstall Information:** Options 1, 2, 3, 4, and 6 have automatic updates. Option 5 requires manual updates. See below for details.
 
@@ -108,12 +108,12 @@ Desktop Commander offers multiple installation methods for Claude Desktop.
 
 Just run this in terminal:
 ```
-npx @wonderwhy-er/desktop-commander@latest setup
+npx @wonderwhy-er/comander-arwaky@latest setup
 ```
 
 For debugging mode (allows Node.js inspector connection):
 ```
-npx @wonderwhy-er/desktop-commander@latest setup --debug
+npx @wonderwhy-er/comander-arwaky@latest setup --debug
 ```
 
 **Command line options during setup:**
@@ -124,7 +124,7 @@ Restart Claude if running.
 
 **✅ Auto-Updates:** Yes - automatically updates when you restart Claude  
 **🔄 Manual Update:** Run the setup command again  
-**🗑️ Uninstall:** Run `npx @wonderwhy-er/desktop-commander@latest remove`
+**🗑️ Uninstall:** Run `npx @wonderwhy-er/comander-arwaky@latest remove`
 
 </details>
 
@@ -138,14 +138,14 @@ This script handles all dependencies and configuration automatically.
 
 **✅ Auto-Updates:** Yes  
 **🔄 Manual Update:** Re-run the bash installer command above  
-**🗑️ Uninstall:** Run `npx @wonderwhy-er/desktop-commander@latest remove`
+**🗑️ Uninstall:** Run `npx @wonderwhy-er/comander-arwaky@latest remove`
 
 </details>
 
 <details>
 <summary><b>Option 3: Installing via Smithery ⭐ Auto-Updates (Requires Node.js)</b></summary>
 
-1. **Visit:** https://smithery.ai/server/@wonderwhy-er/desktop-commander
+1. **Visit:** https://smithery.ai/server/@wonderwhy-er/comander-arwaky
 2. **Login to Smithery** if you haven't already
 3. **Select your client** (Claude Desktop) on the right side
 4. **Install with the provided key** that appears after selecting your client
@@ -168,11 +168,11 @@ Add this entry to your claude_desktop_config.json:
 ```json
 {
   "mcpServers": {
-    "desktop-commander": {
+    "comander-arwaky": {
       "command": "npx",
       "args": [
         "-y",
-        "@wonderwhy-er/desktop-commander@latest"
+        "@wonderwhy-er/comander-arwaky@latest"
       ]
     }
   }
@@ -182,7 +182,7 @@ Restart Claude if running.
 
 **✅ Auto-Updates:** Yes - automatically updates when you restart Claude  
 **🔄 Manual Update:** Run the setup command again  
-**🗑️ Uninstall:** Run `npx @wonderwhy-er/desktop-commander@latest remove` or remove the entry from your claude_desktop_config.json
+**🗑️ Uninstall:** Run `npx @wonderwhy-er/comander-arwaky@latest remove` or remove the entry from your claude_desktop_config.json
 
 </details>
 
@@ -200,7 +200,7 @@ The setup command will install dependencies, build the server, and configure Cla
 
 **❌ Auto-Updates:** No - requires manual git updates  
 **🔄 Manual Update:** `cd comander-arwaky && git pull && npm run setup`  
-**🗑️ Uninstall:** Run `npx @wonderwhy-er/desktop-commander@latest remove` or remove the cloned directory and MCP server entry from Claude config
+**🗑️ Uninstall:** Run `npx @wonderwhy-er/comander-arwaky@latest remove` or remove the cloned directory and MCP server entry from Claude config
 
 </details>
 
@@ -232,9 +232,9 @@ The installer will check Docker, pull the image, prompt for folder mounting, and
 ```json
 {
   "mcpServers": {
-    "desktop-commander-in-docker": {
+    "comander-arwaky-in-docker": {
       "command": "docker",
-      "args": ["run", "-i", "--rm", "mcp/desktop-commander:latest"]
+      "args": ["run", "-i", "--rm", "mcp/comander-arwaky:latest"]
     }
   }
 }
@@ -244,13 +244,13 @@ The installer will check Docker, pull the image, prompt for folder mounting, and
 ```json
 {
   "mcpServers": {
-    "desktop-commander-in-docker": {
+    "comander-arwaky-in-docker": {
       "command": "docker",
       "args": [
         "run", "-i", "--rm",
         "-v", "/Users/username/Desktop:/mnt/desktop",
         "-v", "/Users/username/Documents:/mnt/documents",
-        "mcp/desktop-commander:latest"
+        "mcp/comander-arwaky:latest"
       ]
     }
   }
@@ -261,7 +261,7 @@ The installer will check Docker, pull the image, prompt for folder mounting, and
 ```json
 {
   "mcpServers": {
-    "desktop-commander-in-docker": {
+    "comander-arwaky-in-docker": {
       "command": "docker",
       "args": [
         "run", "-i", "--rm",
@@ -271,7 +271,7 @@ The installer will check Docker, pull the image, prompt for folder mounting, and
         "-v", "dc-packages:/var",
         "-v", "/Users/username/Projects:/mnt/Projects",
         "-v", "/Users/username/Downloads:/mnt/Downloads",
-        "mcp/desktop-commander:latest"
+        "mcp/comander-arwaky:latest"
       ]
     }
   }
@@ -312,20 +312,20 @@ bash <(curl -fsSL https://raw.githubusercontent.com/wonderwhy-er/comander-arwaky
 </details>
 
 **✅ Auto-Updates:** Yes - `latest` tag automatically gets newer versions  
-**🔄 Manual Update:** `docker pull mcp/desktop-commander:latest` then restart Claude  
+**🔄 Manual Update:** `docker pull mcp/comander-arwaky:latest` then restart Claude  
 
 </details>
 
 ### Install in Other Clients
 
-Desktop Commander works with any MCP-compatible client. The standard JSON configuration is:
+Comander Arwaky works with any MCP-compatible client. The standard JSON configuration is:
 
 ```json
 {
   "mcpServers": {
-    "desktop-commander": {
+    "comander-arwaky": {
       "command": "npx",
-      "args": ["-y", "@wonderwhy-er/desktop-commander@latest"]
+      "args": ["-y", "@wonderwhy-er/comander-arwaky@latest"]
     }
   }
 }
@@ -336,7 +336,7 @@ Add this to your client's MCP configuration file at the locations below:
 <details>
 <summary><b>Cursor</b></summary>
 
-[Install MCP Server in Cursor](https://cursor.directory/mcp/desktop-commander-mcp)
+[Install MCP Server in Cursor](https://cursor.directory/mcp/comander-arwaky-mcp)
 
 Or add manually to `~/.cursor/mcp.json` (global) or `.cursor/mcp.json` in your project folder (project-specific).
 
@@ -363,7 +363,7 @@ See [VS Code MCP docs](https://code.visualstudio.com/docs/copilot/chat/mcp-arwak
 <details>
 <summary><b>Cline</b></summary>
 
-Configure through the Cline extension settings in VS Code. Open the Cline sidebar, click the MCP Servers icon, and add the JSON configuration above. See [Cline MCP docs](https://docs.cline.bot/mcp/configuring-mcp-arwaky) for more info.
+Configure through the Cline extension settings in VS Code. Open the Cline sidebar, click the MCP Arwaky icon, and add the JSON configuration above. See [Cline MCP docs](https://docs.cline.bot/mcp/configuring-mcp-arwaky) for more info.
 
 </details>
 
@@ -378,7 +378,7 @@ Add to your Roo Code MCP configuration file. See [Roo Code MCP docs](https://doc
 <summary><b>Claude Code</b></summary>
 
 ```sh
-claude mcp add --scope user desktop-commander -- npx -y @wonderwhy-er/desktop-commander@latest
+claude mcp add --scope user comander-arwaky -- npx -y @wonderwhy-er/comander-arwaky@latest
 ```
 
 Remove `--scope user` to install for the current project only. See [Claude Code MCP docs](https://docs.anthropic.com/en/docs/claude-code/mcp) for more info.
@@ -395,25 +395,25 @@ Use the "Add manually" feature and paste the JSON configuration above. See [Trae
 <details>
 <summary><b>Kiro</b></summary>
 
-Navigate to `Kiro` > `MCP Servers`, click `+ Add`, and paste the JSON configuration above. See [Kiro MCP docs](https://kiro.dev/docs/mcp/configuration/) for more info.
+Navigate to `Kiro` > `MCP Arwaky`, click `+ Add`, and paste the JSON configuration above. See [Kiro MCP docs](https://kiro.dev/docs/mcp/configuration/) for more info.
 
 </details>
 
 <details>
 <summary><b>Codex (OpenAI)</b></summary>
 
-Codex uses TOML configuration. Run this command to add Desktop Commander:
+Codex uses TOML configuration. Run this command to add Comander Arwaky:
 
 ```sh
-codex mcp add desktop-commander -- npx -y @wonderwhy-er/desktop-commander@latest
+codex mcp add comander-arwaky -- npx -y @wonderwhy-er/comander-arwaky@latest
 ```
 
 Or manually add to `~/.codex/config.toml`:
 
 ```toml
-[mcp_servers.desktop-commander]
+[mcp_servers.comander-arwaky]
 command = "npx"
-args = ["-y", "@wonderwhy-er/desktop-commander@latest"]
+args = ["-y", "@wonderwhy-er/comander-arwaky@latest"]
 ```
 
 See [Codex MCP docs](https://developers.openai.com/codex/mcp/) for more info.
@@ -435,9 +435,9 @@ Add to `~/.gemini/settings.json`:
 ```json
 {
   "mcpServers": {
-    "desktop-commander": {
+    "comander-arwaky": {
       "command": "npx",
-      "args": ["-y", "@wonderwhy-er/desktop-commander@latest"]
+      "args": ["-y", "@wonderwhy-er/comander-arwaky@latest"]
     }
   }
 }
@@ -450,17 +450,17 @@ See [Gemini CLI docs](https://github.com/google-gemini/gemini-cli) for more info
 <details>
 <summary><b>Augment Code</b></summary>
 
-Press `Cmd/Ctrl+Shift+P`, open the Augment panel, and add a new MCP server named `desktop-commander` with the JSON configuration above. See [Augment Code MCP docs](https://docs.augmentcode.com/setup-augment/mcp) for more info.
+Press `Cmd/Ctrl+Shift+P`, open the Augment panel, and add a new MCP server named `comander-arwaky` with the JSON configuration above. See [Augment Code MCP docs](https://docs.augmentcode.com/setup-augment/mcp) for more info.
 
 </details>
 
 <details>
 <summary><b>Qwen Code</b></summary>
 
-Run this command to add Desktop Commander:
+Run this command to add Comander Arwaky:
 
 ```sh
-qwen mcp add desktop-commander -- npx -y @wonderwhy-er/desktop-commander@latest
+qwen mcp add comander-arwaky -- npx -y @wonderwhy-er/comander-arwaky@latest
 ```
 
 Or add to `.qwen/settings.json` (project) or `~/.qwen/settings.json` (global). See [Qwen Code MCP docs](https://qwenlm.github.io/qwen-code-docs/en/developers/tools/mcp-server/) for more info.
@@ -470,7 +470,7 @@ Or add to `.qwen/settings.json` (project) or `~/.qwen/settings.json` (global). S
 <details>
 <summary><b>ChatGPT / Claude Web (Remote MCP)</b></summary>
 
-Use Desktop Commander from **ChatGPT**, **Claude web**, and other AI services via Remote MCP — no desktop app required.
+Use Comander Arwaky from **ChatGPT**, **Claude web**, and other AI services via Remote MCP — no desktop app required.
 
 **👉 [Get started at mcp.desktopcommander.app](https://mcp.desktopcommander.app)**
 
@@ -489,7 +489,7 @@ How it works:
 
 </details>
 
-## Updating & Uninstalling Desktop Commander
+## Updating & Uninstalling Comander Arwaky
 
 ### Automatic Updates (Options 1, 2, 3, 4 & 6)
 **Options 1 (npx), Option 2 (bash installer), 3 (Smithery), 4 (manual config), and 6 (Docker)** automatically update to the latest version whenever you restart Claude. No manual intervention needed.
@@ -497,17 +497,17 @@ How it works:
 ### Manual Updates (Option 5)
 - **Option 5 (local checkout):** `cd comander-arwaky && git pull && npm run setup`
 
-### Uninstalling Desktop Commander
+### Uninstalling Comander Arwaky
 #### 🤖 Automatic Uninstallation (Recommended)
 
-The easiest way to completely remove Desktop Commander:
+The easiest way to completely remove Comander Arwaky:
 
 ```bash
-npx @wonderwhy-er/desktop-commander@latest remove
+npx @wonderwhy-er/comander-arwaky@latest remove
 ```
 
 This automatic uninstaller will:
-- ✅ Remove Desktop Commander from Claude's MCP server configuration
+- ✅ Remove Comander Arwaky from Claude's MCP server configuration
 - ✅ Create a backup of your Claude config before making changes
 - ✅ Provide guidance for complete package removal
 - ✅ Restore from backup if anything goes wrong
@@ -525,15 +525,15 @@ If the automatic uninstaller doesn't work or you prefer manual removal:
 
 2. **Edit the config file:**
   - Open the file in a text editor
-  - Find and remove the `"desktop-commander"` entry from the `"mcpServers"` section
+  - Find and remove the `"comander-arwaky"` entry from the `"mcpServers"` section
   - Save the file
 
   **Example - Remove this section:**
   ```json
   {
-      "desktop-commander": {
+      "comander-arwaky": {
         "command": "npx",
-        "args": ["@wonderwhy-er/desktop-commander@latest"]
+        "args": ["@wonderwhy-er/comander-arwaky@latest"]
       }
   }
   ```
@@ -554,18 +554,18 @@ Close and restart Claude Desktop to complete the removal.
 
 ## Getting Started
 
-Once Desktop Commander is installed and Claude Desktop is restarted, you're ready to supercharge your Claude experience!
+Once Comander Arwaky is installed and Claude Desktop is restarted, you're ready to supercharge your Claude experience!
 
 ### 🚀 New User Onboarding
 
-Desktop Commander includes intelligent onboarding to help you discover what's possible:
+Comander Arwaky includes intelligent onboarding to help you discover what's possible:
 
-**For New Users:** When you're just getting started (fewer than 10 successful commands), Claude will automatically offer helpful getting-started guidance and practical tutorials after you use Desktop Commander successfully.
+**For New Users:** When you're just getting started (fewer than 10 successful commands), Claude will automatically offer helpful getting-started guidance and practical tutorials after you use Comander Arwaky successfully.
 
 **Request Help Anytime:** You can ask for onboarding assistance at any time by simply saying:
-- *"Help me get started with Desktop Commander"*
-- *"Show me Desktop Commander examples"* 
-- *"What can I do with Desktop Commander?"*
+- *"Help me get started with Comander Arwaky"*
+- *"Show me Comander Arwaky examples"* 
+- *"What can I do with Comander Arwaky?"*
 
 Claude will then show you beginner-friendly tutorials and examples, including:
 - 📁 Organizing your Downloads folder automatically
@@ -606,7 +606,7 @@ The server provides a comprehensive set of tools organized into several categori
 | **Text Editing** | `edit_block` | Apply targeted text replacements for text files, or range-based cell updates for Excel files |
 | **Analytics** | `get_usage_stats` | Get usage statistics for your own insight |
 | | `get_recent_tool_calls` | Get recent tool call history with arguments and outputs for debugging and context recovery |
-| | `give_feedback_to_desktop_commander` | Open feedback form in browser to provide feedback to Desktop Commander Team |
+| | `give_feedback_to_desktop_commander` | Open feedback form in browser to provide feedback to Comander Arwaky Team |
 
 ### Quick Examples
 
@@ -663,15 +663,15 @@ When a search fails, you'll see detailed information about the closest match fou
 
 ### 🐳 Isolated Environment Usage
 
-Desktop Commander can be run in Docker containers for **complete isolation from your host system**, providing **zero risk to your computer**. This is perfect for testing, development, or when you want complete sandboxing.
+Comander Arwaky can be run in Docker containers for **complete isolation from your host system**, providing **zero risk to your computer**. This is perfect for testing, development, or when you want complete sandboxing.
 
 ### Installation Instructions
 
 1. **Install Docker for Windows/Mac**
    - Download and install Docker Desktop from [docker.com](https://www.docker.com/products/docker-desktop/)
 
-2. **Get Desktop Commander Docker Configuration**
-   - Visit: https://hub.docker.com/mcp/server/desktop-commander/manual
+2. **Get Comander Arwaky Docker Configuration**
+   - Visit: https://hub.docker.com/mcp/server/comander-arwaky/manual
    - **Option A:** Use the provided terminal command for automated setup
    - **Option B:** Click "Standalone" to get the config JSON and add it manually to your Claude Desktop config
  ![docker-config.png](screenshots/docker-config.png)
@@ -716,7 +716,7 @@ For detailed documentation on these scripts, see [scripts/README.md](scripts/REA
 
 ## Fuzzy Search Logs
 
-Desktop Commander includes comprehensive logging for fuzzy search operations in the `edit_block` tool. When an exact match isn't found, the system performs a fuzzy search and logs detailed information for analysis.
+Comander Arwaky includes comprehensive logging for fuzzy search operations in the `edit_block` tool. When an exact match isn't found, the system performs a fuzzy search and logs detailed information for analysis.
 
 ### What Gets Logged
 
@@ -744,7 +744,7 @@ The fuzzy search logs help you understand:
 
 ## Audit Logging
 
-Desktop Commander now includes comprehensive logging for all tool calls:
+Comander Arwaky now includes comprehensive logging for all tool calls:
 
 ### What Gets Logged
 - Every tool call is logged with timestamp, tool name, and arguments (sanitized for privacy)
@@ -829,11 +829,11 @@ set_config_value({ "key": "fileWriteLineLimit", "value": 25 })
 
 ## Command Line Options
 
-Desktop Commander supports several command line options for customizing behavior:
+Comander Arwaky supports several command line options for customizing behavior:
 
 ### Disable Onboarding
 
-By default, Desktop Commander shows helpful onboarding prompts to new users (those with fewer than 10 tool calls). You can disable this behavior:
+By default, Comander Arwaky shows helpful onboarding prompts to new users (those with fewer than 10 tool calls). You can disable this behavior:
 
 ```bash
 # Disable onboarding for this session
@@ -845,11 +845,11 @@ npm run start:no-onboarding
 # For npx installations, modify your claude_desktop_config.json:
 {
   "mcpServers": {
-    "desktop-commander": {
+    "comander-arwaky": {
       "command": "npx",
       "args": [
         "-y",
-        "@wonderwhy-er/desktop-commander@latest",
+        "@wonderwhy-er/comander-arwaky@latest",
         "--no-onboarding"
       ]
     }
@@ -858,7 +858,7 @@ npm run start:no-onboarding
 ```
 
 **When onboarding is automatically disabled:**
-- When the MCP client name is set to "desktop-commander"
+- When the MCP client name is set to "comander-arwaky"
 - When using the `--no-onboarding` flag
 - After users have used onboarding prompts or made 10+ tool calls
 
@@ -893,14 +893,14 @@ If you need to debug the server, you can install it in debug mode:
 
 ```bash
 # Using npx
-npx @wonderwhy-er/desktop-commander@latest setup --debug
+npx @wonderwhy-er/comander-arwaky@latest setup --debug
 
 # Or if installed locally
 npm run setup:debug
 ```
 
 This will:
-1. Configure Claude to use a separate "desktop-commander" server
+1. Configure Claude to use a separate "comander-arwaky" server
 2. Enable Node.js inspector protocol with `--inspect-brk=9229` flag
 3. Pause execution at the start until a debugger connects
 4. Enable additional debugging environment variables
@@ -914,7 +914,7 @@ Important debugging notes:
 - The server will pause on startup until a debugger connects (due to the `--inspect-brk` flag)
 - If you don't see activity during debugging, ensure you're connected to the correct Node.js process
 - Multiple Node processes may be running; connect to the one on port 9229
-- The debug server is identified as "desktop-commander-debug" in Claude's MCP server list
+- The debug server is identified as "comander-arwaky-debug" in Claude's MCP server list
 
 Troubleshooting:
 - If Claude times out while trying to use the debug server, your debugger might not be properly connected
@@ -932,14 +932,14 @@ This project extends the MCP Filesystem Server to enable:
 
 Created as part of exploring Claude MCPs: https://youtube.com/live/TlbjFDbl5Us
 
-## Support Desktop Commander
+## Support Comander Arwaky
 
 <div align="center">
   <h3>📢 SUPPORT THIS PROJECT</h3>
-  <p><strong>Desktop Commander MCP is free and open source, but needs your support to thrive!</strong></p>
+  <p><strong>Comander Arwaky is free and open source, but needs your support to thrive!</strong></p>
   
   <div style="background-color: #f8f9fa; padding: 15px; border-radius: 10px; margin: 20px 0; border: 2px solid #007bff;">
-    <p>Our philosophy is simple: we don't want you to pay for it if you're not successful. But if Desktop Commander contributes to your success, please consider contributing to ours.</p>
+    <p>Our philosophy is simple: we don't want you to pay for it if you're not successful. But if Comander Arwaky contributes to your success, please consider contributing to ours.</p>
     <p><strong>Ways to support:</strong></p>
     <ul style="list-style-type: none; padding: 0;">
       <li>🌟 <a href="https://github.com/sponsors/wonderwhy-er"><strong>GitHub Sponsors</strong></a> - Recurring support</li>
@@ -1000,7 +1000,7 @@ Learn more about this project through these resources:
 [Claude with MCPs replaced Cursor & Windsurf. How did that happen?](https://wonderwhy-er.medium.com/claude-with-mcps-replaced-cursor-windsurf-how-did-that-happen-c1d1e2795e96) - A detailed exploration of how Claude with Model Context Protocol capabilities is changing developer workflows.
 
 ### Video
-[Claude Desktop Commander Video Tutorial](https://www.youtube.com/watch?v=ly3bed99Dy8) - Watch how to set up and use the Commander effectively.
+[Claude Comander Arwaky Video Tutorial](https://www.youtube.com/watch?v=ly3bed99Dy8) - Watch how to set up and use the Commander effectively.
 
 ### Publication at AnalyticsIndiaMag
 [![analyticsindiamag.png](testemonials%2Fanalyticsindiamag.png)
@@ -1049,17 +1049,17 @@ If you find this tool valuable for your workflow, please consider [supporting th
 
 Here are answers to some common questions. For a more comprehensive FAQ, see our [detailed FAQ document](FAQ.md).
 
-### What is Desktop Commander?
+### What is Comander Arwaky?
 It's an MCP tool that enables Claude Desktop to access your file system and terminal, turning Claude into a versatile assistant for coding, automation, codebase exploration, and more.
 
 ### How is this different from Cursor/Windsurf?
-Unlike IDE-focused tools, Claude Desktop Commander provides a solution-centric approach that works with your entire OS, not just within a coding environment. Claude reads files in full rather than chunking them, can work across multiple projects simultaneously, and executes changes in one go rather than requiring constant review.
+Unlike IDE-focused tools, Claude Comander Arwaky provides a solution-centric approach that works with your entire OS, not just within a coding environment. Claude reads files in full rather than chunking them, can work across multiple projects simultaneously, and executes changes in one go rather than requiring constant review.
 
 ### Do I need to pay for API credits?
 No. This tool works with Claude Desktop's standard Pro subscription ($20/month), not with API calls, so you won't incur additional costs beyond the subscription fee.
 
-### Does Desktop Commander automatically update?
-Yes, when installed through npx or Smithery, Desktop Commander automatically updates to the latest version when you restart Claude. No manual update process is needed.
+### Does Comander Arwaky automatically update?
+Yes, when installed through npx or Smithery, Comander Arwaky automatically updates to the latest version when you restart Claude. No manual update process is needed.
 
 ### What are the most common use cases?
 - Exploring and understanding complex codebases
@@ -1076,9 +1076,9 @@ Please create a [GitHub Issue](https://github.com/wonderwhy-er/comander-arwaky/i
 
 ## Data Collection & Privacy
 
-Desktop Commander collects limited, pseudonymous telemetry to improve the tool. We do not collect file contents, file paths, or command arguments.
+Comander Arwaky collects limited, pseudonymous telemetry to improve the tool. We do not collect file contents, file paths, or command arguments.
 
-**Opt-out:** Ask Claude to "disable Desktop Commander telemetry" or set `"telemetryEnabled": false` in your config.
+**Opt-out:** Ask Claude to "disable Comander Arwaky telemetry" or set `"telemetryEnabled": false` in your config.
 
 For complete details, see our [Privacy Policy](PRIVACY.md).
 

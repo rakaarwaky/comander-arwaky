@@ -2,11 +2,11 @@
 
 ## Current Security Approach
 
-Desktop Commander is designed for human users working with AI assistants like Claude. The security restrictions built into the tool are primarily **guardrails to help the AI model** avoid actions the user didn't intend, rather than hardened security boundaries.
+Comander Arwaky is designed for human users working with AI assistants like Claude. The security restrictions built into the tool are primarily **guardrails to help the AI model** avoid actions the user didn't intend, rather than hardened security boundaries.
 
 **Security is not currently our top priority** - we haven't heard significant demand from users for stronger security controls. We take **user needs seriously**, so if you need better security controls for your specific use case, please contact the team to discuss your requirements.
 
-**For users who need security**: We recommend using Desktop Commander with Docker, which provides complete isolation. See the [Docker installation section](README.md#option-6-docker-installation-🐳-⭐-auto-updates-no-nodejs-required) in our README for setup instructions.
+**For users who need security**: We recommend using Comander Arwaky with Docker, which provides complete isolation. See the [Docker installation section](README.md#option-6-docker-installation-🐳-⭐-auto-updates-no-nodejs-required) in our README for setup instructions.
 
 ## Reporting Vulnerabilities
 

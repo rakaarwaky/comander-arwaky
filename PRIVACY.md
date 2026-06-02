@@ -1,16 +1,16 @@
-# Privacy Policy for Desktop Commander
+# Privacy Policy for Comander Arwaky
 
 **Last updated: December 11, 2025**
 
 ## Introduction
 
-We at Desktop Commander are committed to respecting your privacy and keeping secure any information collected through our software. This privacy policy explains how we collect, use, and protect telemetry data when you use Desktop Commander.
+We at Comander Arwaky are committed to respecting your privacy and keeping secure any information collected through our software. This privacy policy explains how we collect, use, and protect telemetry data when you use Comander Arwaky.
 
-Desktop Commander is an open-source MCP (Model Context Protocol) server that runs locally on your machine. This policy applies to the optional telemetry data we collect to improve the application.
+Comander Arwaky is an open-source MCP (Model Context Protocol) server that runs locally on your machine. This policy applies to the optional telemetry data we collect to improve the application.
 
 ## Data Collection
 
-Desktop Commander collects limited telemetry data to help us understand usage patterns, detect errors, and improve the tool. **Data collection is opt-out** — it is enabled by default but can be easily disabled (see [User Control](#user-control-opt-out)).
+Comander Arwaky collects limited telemetry data to help us understand usage patterns, detect errors, and improve the tool. **Data collection is opt-out** — it is enabled by default but can be easily disabled (see [User Control](#user-control-opt-out)).
 
 Our telemetry system is designed to be privacy-focused:
 - We collect only the minimum information necessary for product improvement
@@ -28,7 +28,7 @@ Our telemetry system is designed to be privacy-focused:
 - **Event name**: The specific operation or action performed
 - **Timestamp**: When the event occurred
 - **Platform information**: Your operating system type (e.g., Windows, macOS, Linux)
-- **App version**: The version of Desktop Commander you're using
+- **App version**: The version of Comander Arwaky you're using
 - **Client information**: Name and version of the MCP client (e.g., "Claude Desktop", "VS Code")
 
 #### Installation and Setup Information
@@ -77,7 +77,7 @@ We do not store or have access to IP addresses. Our analytics provider (Google A
 
 ### Children
 
-Desktop Commander is not directed at children under the age of 18. We do not knowingly collect information from children. If we learn that we have collected personal data from a child, we will take steps to delete that information.
+Comander Arwaky is not directed at children under the age of 18. We do not knowingly collect information from children. If we learn that we have collected personal data from a child, we will take steps to delete that information.
 
 ## How We Use Data
 
@@ -106,7 +106,7 @@ We may share your data in the following circumstances:
 
 ## Data Transfers
 
-Desktop Commander processes telemetry data on servers located in various jurisdictions, including the United States. When data is transferred internationally, we apply the protections outlined in this policy regardless of where it is processed, and we only transfer data in accordance with legally valid transfer mechanisms.
+Comander Arwaky processes telemetry data on servers located in various jurisdictions, including the United States. When data is transferred internationally, we apply the protections outlined in this policy regardless of where it is processed, and we only transfer data in accordance with legally valid transfer mechanisms.
 
 ## Data Retention
 
@@ -122,10 +122,10 @@ Data collection is **opt-out** — telemetry is enabled by default but you can d
 
 **Option 1: Ask the AI**
 Simply ask Claude (or your AI assistant) to disable telemetry:
-> "Please disable Desktop Commander telemetryEnabled in config"
+> "Please disable Comander Arwaky telemetryEnabled in config"
 
 **Option 2: Manual configuration**
-1. Edit your configuration file at `~/.desktop-commander/config.json`
+1. Edit your configuration file at `~/.comander-arwaky/config.json`
 2. Set `"telemetryEnabled": false`
 3. Restart the application
 
@@ -146,11 +146,11 @@ The most effective way to exercise your privacy rights is to disable telemetry a
 - Your privacy is protected by design: we cannot identify you, and neither can anyone else
 - To stop future data collection: disable telemetry in your config
 - To ensure old data is removed: it will automatically purge after 14 months
-- If you uninstall Desktop Commander and delete your config file, there is no way to link any stored analytics data back to you
+- If you uninstall Comander Arwaky and delete your config file, there is no way to link any stored analytics data back to you
 
 ## Privacy Policy Changes
 
-We may update this privacy policy from time to time. When we do, we will publish an updated version and effective date at the top of this page. Your continued use of Desktop Commander after any change constitutes acceptance of the updated policy.
+We may update this privacy policy from time to time. When we do, we will publish an updated version and effective date at the top of this page. Your continued use of Comander Arwaky after any change constitutes acceptance of the updated policy.
 
 ## Contact
 
@@ -161,4 +161,4 @@ We aim to respond to privacy inquiries within 30 days.
 
 ---
 
-*Desktop Commander is open-source software. This privacy policy applies only to the optional telemetry feature.*
+*Comander Arwaky is open-source software. This privacy policy applies only to the optional telemetry feature.*
