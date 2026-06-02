@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "desktop-commander": {
+    "comander-arwaky": {
       "command": "node",
       "args": [
         "/home/raka/mcp-arwaky/comander-arwaky/dist/index.js"

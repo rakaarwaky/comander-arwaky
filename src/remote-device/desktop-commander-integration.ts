@@ -27,7 +27,7 @@ export class DesktopCommanderIntegration {
 
         if (!config) {
             console.debug('[DEBUG] No MCP config found');
-            throw new Error('Desktop Commander MCP not found. Please install it globally via `npm install -g @wonderwhy-er/desktop-commander` or build the local project.');
+            throw new Error('Desktop Commander MCP not found. Please install it globally via `npm install -g @rakaarwaky/desktop-commander` or build the local project.');
         }
 
         console.log(` - ⏳ Connecting to Local Desktop Commander MCP using: ${config.command} ${config.args.join(' ')}`);

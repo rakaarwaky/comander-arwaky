@@ -23,7 +23,7 @@ Before running the device, ensure you have:
 2.  **Comander Arwaky Server**: Installed and capable of running.
     *   **Global Install (Recommended)**:
         ```bash
-        npm install -g @wonderwhy-er/comander-arwaky
+        npm install -g @rakaarwaky/comander-arwaky
         ```
     *   **Local Build**: If you are developing locally, the device can also find the server in `../../dist/index.js`.
 
@@ -35,7 +35,7 @@ Install the module globally to run it from anywhere:
 
 1.  **Clone the Repository**:
     ```bash
-    git clone https://github.com/wonderwhy-er/comander-arwaky.git
+    git clone https://github.com/rakaarwaky/comander-arwaky.git
     cd comander-arwaky/src/remote-device
     ```
 
@@ -65,7 +65,7 @@ Run from the project repository without global installation:
 
 1.  **Clone the Repository**:
     ```bash
-    git clone https://github.com/wonderwhy-er/comander-arwaky.git
+    git clone https://github.com/rakaarwaky/comander-arwaky.git
     cd comander-arwaky
     ```
 

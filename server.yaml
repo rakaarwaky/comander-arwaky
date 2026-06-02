@@ -13,7 +13,7 @@ about:
   description: Search, update, manage files and run terminal commands with AI. Configurable filesystem access and network permissions.
   icon: https://avatars.githubusercontent.com/u/182288589?s=200&v=4
 source:
-  project: https://github.com/wonderwhy-er/DesktopCommanderMCP
+  project: https://github.com/rakaarwaky/comander-arwaky
   branch: main
   dockerfile: Dockerfile
 run:

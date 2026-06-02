@@ -1,10 +1,10 @@
 # Comander Arwaky
 ### Search, update, manage files and run terminal commands with AI
 
-[![npm downloads](https://img.shields.io/npm/dw/@wonderwhy-er/comander-arwaky)](https://www.npmjs.com/package/@wonderwhy-er/comander-arwaky)
+[![npm downloads](https://img.shields.io/npm/dw/@rakaarwaky/comander-arwaky)](https://www.npmjs.com/package/@rakaarwaky/comander-arwaky)
 [![AgentAudit Verified](https://agentaudit.dev/api/badge/comander-arwaky)](https://agentaudit.dev/skills/comander-arwaky)
-[![Trust Score](https://archestra.ai/mcp-catalog/api/badge/quality/wonderwhy-er/comander-arwaky)](https://archestra.ai/mcp-catalog/wonderwhy-er__desktopcommandermcp)
-[![smithery badge](https://smithery.ai/badge/@wonderwhy-er/comander-arwaky)](https://smithery.ai/server/@wonderwhy-er/comander-arwaky)
+[![Trust Score](https://archestra.ai/mcp-catalog/api/badge/quality/rakaarwaky/comander-arwaky)](https://archestra.ai/mcp-catalog/rakaarwaky__desktopcommandermcp)
+[![smithery badge](https://smithery.ai/badge/@rakaarwaky/comander-arwaky)](https://smithery.ai/server/@rakaarwaky/comander-arwaky)
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-yellow.svg)](https://www.buymeacoffee.com/wonderwhyer)
 
 
@@ -108,12 +108,12 @@ Comander Arwaky offers multiple installation methods for Claude Desktop.
 
 Just run this in terminal:
 ```
-npx @wonderwhy-er/comander-arwaky@latest setup
+npx @rakaarwaky/comander-arwaky@latest setup
 ```
 
 For debugging mode (allows Node.js inspector connection):
 ```
-npx @wonderwhy-er/comander-arwaky@latest setup --debug
+npx @rakaarwaky/comander-arwaky@latest setup --debug
 ```
 
 **Command line options during setup:**
@@ -124,7 +124,7 @@ Restart Claude if running.
 
 **✅ Auto-Updates:** Yes - automatically updates when you restart Claude  
 **🔄 Manual Update:** Run the setup command again  
-**🗑️ Uninstall:** Run `npx @wonderwhy-er/comander-arwaky@latest remove`
+**🗑️ Uninstall:** Run `npx @rakaarwaky/comander-arwaky@latest remove`
 
 </details>
 
@@ -132,20 +132,20 @@ Restart Claude if running.
 <summary><b>Option 2: Using bash script installer (macOS) ⭐ Auto-Updates (Installs Node.js if needed)</b></summary>
 
 ```
-curl -fsSL https://raw.githubusercontent.com/wonderwhy-er/comander-arwaky/refs/heads/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/rakaarwaky/comander-arwaky/refs/heads/main/install.sh | bash
 ```
 This script handles all dependencies and configuration automatically.
 
 **✅ Auto-Updates:** Yes  
 **🔄 Manual Update:** Re-run the bash installer command above  
-**🗑️ Uninstall:** Run `npx @wonderwhy-er/comander-arwaky@latest remove`
+**🗑️ Uninstall:** Run `npx @rakaarwaky/comander-arwaky@latest remove`
 
 </details>
 
 <details>
 <summary><b>Option 3: Installing via Smithery ⭐ Auto-Updates (Requires Node.js)</b></summary>
 
-1. **Visit:** https://smithery.ai/server/@wonderwhy-er/comander-arwaky
+1. **Visit:** https://smithery.ai/server/@rakaarwaky/comander-arwaky
 2. **Login to Smithery** if you haven't already
 3. **Select your client** (Claude Desktop) on the right side
 4. **Install with the provided key** that appears after selecting your client
@@ -172,7 +172,7 @@ Add this entry to your claude_desktop_config.json:
       "command": "npx",
       "args": [
         "-y",
-        "@wonderwhy-er/comander-arwaky@latest"
+        "@rakaarwaky/comander-arwaky@latest"
       ]
     }
   }
@@ -182,7 +182,7 @@ Restart Claude if running.
 
 **✅ Auto-Updates:** Yes - automatically updates when you restart Claude  
 **🔄 Manual Update:** Run the setup command again  
-**🗑️ Uninstall:** Run `npx @wonderwhy-er/comander-arwaky@latest remove` or remove the entry from your claude_desktop_config.json
+**🗑️ Uninstall:** Run `npx @rakaarwaky/comander-arwaky@latest remove` or remove the entry from your claude_desktop_config.json
 
 </details>
 
@@ -190,7 +190,7 @@ Restart Claude if running.
 <summary><b>Option 5: Checkout locally ❌ Manual Updates (Requires Node.js)</b></summary>
 
 ```bash
-git clone https://github.com/wonderwhy-er/comander-arwaky.git
+git clone https://github.com/rakaarwaky/comander-arwaky.git
 cd comander-arwaky
 npm run setup
 ```
@@ -200,7 +200,7 @@ The setup command will install dependencies, build the server, and configure Cla
 
 **❌ Auto-Updates:** No - requires manual git updates  
 **🔄 Manual Update:** `cd comander-arwaky && git pull && npm run setup`  
-**🗑️ Uninstall:** Run `npx @wonderwhy-er/comander-arwaky@latest remove` or remove the cloned directory and MCP server entry from Claude config
+**🗑️ Uninstall:** Run `npx @rakaarwaky/comander-arwaky@latest remove` or remove the cloned directory and MCP server entry from Claude config
 
 </details>
 
@@ -213,12 +213,12 @@ Perfect for users who want isolation or don't have Node.js installed. Runs in a 
 
 **macOS/Linux:**
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/wonderwhy-er/comander-arwaky/refs/heads/main/install-docker.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/rakaarwaky/comander-arwaky/refs/heads/main/install-docker.sh)
 ```
 
 **Windows PowerShell:**
 ```powershell
-iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wonderwhy-er/comander-arwaky/refs/heads/main/install-docker.ps1'))
+iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/rakaarwaky/comander-arwaky/refs/heads/main/install-docker.ps1'))
 ```
 
 The installer will check Docker, pull the image, prompt for folder mounting, and configure Claude Desktop.
@@ -286,27 +286,27 @@ The installer will check Docker, pull the image, prompt for folder mounting, and
 **macOS/Linux:**
 ```bash
 # Check status
-bash <(curl -fsSL https://raw.githubusercontent.com/wonderwhy-er/comander-arwaky/refs/heads/main/install-docker.sh) --status
+bash <(curl -fsSL https://raw.githubusercontent.com/rakaarwaky/comander-arwaky/refs/heads/main/install-docker.sh) --status
 
 # Reset all persistent data
-bash <(curl -fsSL https://raw.githubusercontent.com/wonderwhy-er/comander-arwaky/refs/heads/main/install-docker.sh) --reset
+bash <(curl -fsSL https://raw.githubusercontent.com/rakaarwaky/comander-arwaky/refs/heads/main/install-docker.sh) --reset
 ```
 
 **Windows PowerShell:**
 ```powershell
 # Check status
-$script = (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wonderwhy-er/comander-arwaky/refs/heads/main/install-docker.ps1'); & ([ScriptBlock]::Create("$script")) -Status
+$script = (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/rakaarwaky/comander-arwaky/refs/heads/main/install-docker.ps1'); & ([ScriptBlock]::Create("$script")) -Status
 
 # Reset all data
-$script = (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wonderwhy-er/comander-arwaky/refs/heads/main/install-docker.ps1'); & ([ScriptBlock]::Create("$script")) -Reset
+$script = (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/rakaarwaky/comander-arwaky/refs/heads/main/install-docker.ps1'); & ([ScriptBlock]::Create("$script")) -Reset
 
 # Show help
-$script = (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/wonderwhy-er/comander-arwaky/refs/heads/main/install-docker.ps1'); & ([ScriptBlock]::Create("$script")) -Help
+$script = (New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/rakaarwaky/comander-arwaky/refs/heads/main/install-docker.ps1'); & ([ScriptBlock]::Create("$script")) -Help
 ```
 
 **Troubleshooting:** Reset and reinstall from scratch:
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/wonderwhy-er/comander-arwaky/refs/heads/main/install-docker.sh) --reset && bash <(curl -fsSL https://raw.githubusercontent.com/wonderwhy-er/comander-arwaky/refs/heads/main/install-docker.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/rakaarwaky/comander-arwaky/refs/heads/main/install-docker.sh) --reset && bash <(curl -fsSL https://raw.githubusercontent.com/rakaarwaky/comander-arwaky/refs/heads/main/install-docker.sh)
 ```
 
 </details>
@@ -325,7 +325,7 @@ Comander Arwaky works with any MCP-compatible client. The standard JSON configur
   "mcpServers": {
     "comander-arwaky": {
       "command": "npx",
-      "args": ["-y", "@wonderwhy-er/comander-arwaky@latest"]
+      "args": ["-y", "@rakaarwaky/comander-arwaky@latest"]
     }
   }
 }
@@ -378,7 +378,7 @@ Add to your Roo Code MCP configuration file. See [Roo Code MCP docs](https://doc
 <summary><b>Claude Code</b></summary>
 
 ```sh
-claude mcp add --scope user comander-arwaky -- npx -y @wonderwhy-er/comander-arwaky@latest
+claude mcp add --scope user comander-arwaky -- npx -y @rakaarwaky/comander-arwaky@latest
 ```
 
 Remove `--scope user` to install for the current project only. See [Claude Code MCP docs](https://docs.anthropic.com/en/docs/claude-code/mcp) for more info.
@@ -405,7 +405,7 @@ Navigate to `Kiro` > `MCP Arwaky`, click `+ Add`, and paste the JSON configurati
 Codex uses TOML configuration. Run this command to add Comander Arwaky:
 
 ```sh
-codex mcp add comander-arwaky -- npx -y @wonderwhy-er/comander-arwaky@latest
+codex mcp add comander-arwaky -- npx -y @rakaarwaky/comander-arwaky@latest
 ```
 
 Or manually add to `~/.codex/config.toml`:
@@ -413,7 +413,7 @@ Or manually add to `~/.codex/config.toml`:
 ```toml
 [mcp_servers.comander-arwaky]
 command = "npx"
-args = ["-y", "@wonderwhy-er/comander-arwaky@latest"]
+args = ["-y", "@rakaarwaky/comander-arwaky@latest"]
 ```
 
 See [Codex MCP docs](https://developers.openai.com/codex/mcp/) for more info.
@@ -437,7 +437,7 @@ Add to `~/.gemini/settings.json`:
   "mcpServers": {
     "comander-arwaky": {
       "command": "npx",
-      "args": ["-y", "@wonderwhy-er/comander-arwaky@latest"]
+      "args": ["-y", "@rakaarwaky/comander-arwaky@latest"]
     }
   }
 }
@@ -460,7 +460,7 @@ Press `Cmd/Ctrl+Shift+P`, open the Augment panel, and add a new MCP server named
 Run this command to add Comander Arwaky:
 
 ```sh
-qwen mcp add comander-arwaky -- npx -y @wonderwhy-er/comander-arwaky@latest
+qwen mcp add comander-arwaky -- npx -y @rakaarwaky/comander-arwaky@latest
 ```
 
 Or add to `.qwen/settings.json` (project) or `~/.qwen/settings.json` (global). See [Qwen Code MCP docs](https://qwenlm.github.io/qwen-code-docs/en/developers/tools/mcp-server/) for more info.
@@ -503,7 +503,7 @@ How it works:
 The easiest way to completely remove Comander Arwaky:
 
 ```bash
-npx @wonderwhy-er/comander-arwaky@latest remove
+npx @rakaarwaky/comander-arwaky@latest remove
 ```
 
 This automatic uninstaller will:
@@ -533,7 +533,7 @@ If the automatic uninstaller doesn't work or you prefer manual removal:
   {
       "comander-arwaky": {
         "command": "npx",
-        "args": ["@wonderwhy-er/comander-arwaky@latest"]
+        "args": ["@rakaarwaky/comander-arwaky@latest"]
       }
   }
   ```
@@ -849,7 +849,7 @@ npm run start:no-onboarding
       "command": "npx",
       "args": [
         "-y",
-        "@wonderwhy-er/comander-arwaky@latest",
+        "@rakaarwaky/comander-arwaky@latest",
         "--no-onboarding"
       ]
     }
@@ -893,7 +893,7 @@ If you need to debug the server, you can install it in debug mode:
 
 ```bash
 # Using npx
-npx @wonderwhy-er/comander-arwaky@latest setup --debug
+npx @rakaarwaky/comander-arwaky@latest setup --debug
 
 # Or if installed locally
 npm run setup:debug
@@ -942,10 +942,10 @@ Created as part of exploring Claude MCPs: https://youtube.com/live/TlbjFDbl5Us
     <p>Our philosophy is simple: we don't want you to pay for it if you're not successful. But if Comander Arwaky contributes to your success, please consider contributing to ours.</p>
     <p><strong>Ways to support:</strong></p>
     <ul style="list-style-type: none; padding: 0;">
-      <li>🌟 <a href="https://github.com/sponsors/wonderwhy-er"><strong>GitHub Sponsors</strong></a> - Recurring support</li>
+      <li>🌟 <a href="https://github.com/sponsors/rakaarwaky"><strong>GitHub Sponsors</strong></a> - Recurring support</li>
       <li>☕ <a href="https://www.buymeacoffee.com/wonderwhyer"><strong>Buy Me A Coffee</strong></a> - One-time contributions</li>
       <li>💖 <a href="https://www.patreon.com/c/EduardsRuzga"><strong>Patreon</strong></a> - Become a patron and support us monthly</li>
-      <li>⭐ <a href="https://github.com/wonderwhy-er/comander-arwaky"><strong>Star on GitHub</strong></a> - Help others discover the project</li>
+      <li>⭐ <a href="https://github.com/rakaarwaky/comander-arwaky"><strong>Star on GitHub</strong></a> - Help others discover the project</li>
     </ul>
   </div>
 </div>
@@ -997,7 +997,7 @@ Visit our official website at [https://desktopcommander.app/](https://desktopcom
 Learn more about this project through these resources:
 
 ### Article
-[Claude with MCPs replaced Cursor & Windsurf. How did that happen?](https://wonderwhy-er.medium.com/claude-with-mcps-replaced-cursor-windsurf-how-did-that-happen-c1d1e2795e96) - A detailed exploration of how Claude with Model Context Protocol capabilities is changing developer workflows.
+[Claude with MCPs replaced Cursor & Windsurf. How did that happen?](https://rakaarwaky.medium.com/claude-with-mcps-replaced-cursor-windsurf-how-did-that-happen-c1d1e2795e96) - A detailed exploration of how Claude with Model Context Protocol capabilities is changing developer workflows.
 
 ### Video
 [Claude Comander Arwaky Video Tutorial](https://www.youtube.com/watch?v=ly3bed99Dy8) - Watch how to set up and use the Commander effectively.
@@ -1011,32 +1011,32 @@ Join our [Discord server](https://discord.gg/kQ27sNnZr7) to get help, share feed
 
 ## Testimonials
 
-[![It's a life saver! I paid Claude + Cursor currently which I always feel it's kind of duplicated. This solves the problem ultimately. I am so happy. Thanks so much. Plus today Claude has added the web search support. With this MCP + Internet search, it writes the code with the latest updates. It's so good when Cursor doesn't work sometimes or all the fast requests are used.](https://raw.githubusercontent.com/wonderwhy-er/ClaudeComputerCommander/main/testemonials/img.png) https://www.youtube.com/watch?v=ly3bed99Dy8&lc=UgyyBt6_ShdDX_rIOad4AaABAg
+[![It's a life saver! I paid Claude + Cursor currently which I always feel it's kind of duplicated. This solves the problem ultimately. I am so happy. Thanks so much. Plus today Claude has added the web search support. With this MCP + Internet search, it writes the code with the latest updates. It's so good when Cursor doesn't work sometimes or all the fast requests are used.](https://raw.githubusercontent.com/rakaarwaky/ClaudeComputerCommander/main/testemonials/img.png) https://www.youtube.com/watch?v=ly3bed99Dy8&lc=UgyyBt6_ShdDX_rIOad4AaABAg
 ](https://www.youtube.com/watch?v=ly3bed99Dy8&lc=UgyyBt6_ShdDX_rIOad4AaABAg
 )
 
-[![This is the first comment I've ever left on a youtube video, THANK YOU! I've been struggling to update an old Flutter app in Cursor from an old pre null-safety version to a current version and implemented null-safety using Claude 3.7. I got most of the way but had critical BLE errors that I spent days trying to resolve with no luck. I tried Augment Code but it didn't get it either. I implemented your MCP in Claude desktop and was able to compare the old and new codebase fully, accounting for the updates in the code, and fix the issues in a couple of hours. A word of advice to people trying this, be sure to stage changes and commit when appropriate to be able to undo unwanted changes. Amazing!](https://raw.githubusercontent.com/wonderwhy-er/ClaudeComputerCommander/main/testemonials/img_1.png)
+[![This is the first comment I've ever left on a youtube video, THANK YOU! I've been struggling to update an old Flutter app in Cursor from an old pre null-safety version to a current version and implemented null-safety using Claude 3.7. I got most of the way but had critical BLE errors that I spent days trying to resolve with no luck. I tried Augment Code but it didn't get it either. I implemented your MCP in Claude desktop and was able to compare the old and new codebase fully, accounting for the updates in the code, and fix the issues in a couple of hours. A word of advice to people trying this, be sure to stage changes and commit when appropriate to be able to undo unwanted changes. Amazing!](https://raw.githubusercontent.com/rakaarwaky/ClaudeComputerCommander/main/testemonials/img_1.png)
 https://www.youtube.com/watch?v=ly3bed99Dy8&lc=UgztdHvDMqTb9jiqnf54AaABAg](https://www.youtube.com/watch?v=ly3bed99Dy8&lc=UgztdHvDMqTb9jiqnf54AaABAg
 )
 
 [![Great! I just used Windsurf, bought license a week ago, for upgrading old fullstack socket project and it works many times good or ok but also many times runs away in cascade and have to revert all changes losing hundereds of cascade tokens. In just a week down to less than 100 tokens and do not want to buy only 300 tokens for 10$. This Claude MCP ,bought claude Pro finally needed but wanted very good reason to also have next to ChatGPT, and now can code as much as I want not worrying about token cost.
-Also this is much more than code editing it is much more thank you for great video!](https://raw.githubusercontent.com/wonderwhy-er/ClaudeComputerCommander/main/testemonials/img_2.png)
+Also this is much more than code editing it is much more thank you for great video!](https://raw.githubusercontent.com/rakaarwaky/ClaudeComputerCommander/main/testemonials/img_2.png)
 https://www.youtube.com/watch?v=ly3bed99Dy8&lc=UgyQFTmYLJ4VBwIlmql4AaABAg](https://www.youtube.com/watch?v=ly3bed99Dy8&lc=UgyQFTmYLJ4VBwIlmql4AaABAg)
 
-[![it is a great tool, thank you, I like using it, as it gives claude an ability to do surgical edits, making it more like a human developer.](https://raw.githubusercontent.com/wonderwhy-er/ClaudeComputerCommander/main/testemonials/img_3.png)
+[![it is a great tool, thank you, I like using it, as it gives claude an ability to do surgical edits, making it more like a human developer.](https://raw.githubusercontent.com/rakaarwaky/ClaudeComputerCommander/main/testemonials/img_3.png)
 https://www.youtube.com/watch?v=ly3bed99Dy8&lc=Ugy4-exy166_Ma7TH-h4AaABAg](https://www.youtube.com/watch?v=ly3bed99Dy8&lc=Ugy4-exy166_Ma7TH-h4AaABAg)
 
 [![You sir are my hero. You've pretty much summed up and described my experiences of late, much better than I could have. Cursor and Windsurf both had me frustrated to the point where I was almost yelling at my computer screen. Out of whimsy, I thought to myself why not just ask Claude directly, and haven't looked back since.
 Claude first to keep my sanity in check, then if necessary, engage with other IDEs, frameworks, etc. I thought I was the only one, glad to see I'm not lol.
 33
-1](https://raw.githubusercontent.com/wonderwhy-er/ClaudeComputerCommander/main/testemonials/img_4.png)
+1](https://raw.githubusercontent.com/rakaarwaky/ClaudeComputerCommander/main/testemonials/img_4.png)
 https://medium.com/@pharmx/you-sir-are-my-hero-62cff5836a3e](https://medium.com/@pharmx/you-sir-are-my-hero-62cff5836a3e)
 
 If you find this project useful, please consider giving it a ⭐ star on GitHub! This helps others discover the project and encourages further development.
 
 We welcome contributions from the community! Whether you've found a bug, have a feature request, or want to contribute code, here's how you can help:
 
-- **Found a bug?** Open an issue at [github.com/wonderwhy-er/comander-arwaky/issues](https://github.com/wonderwhy-er/comander-arwaky/issues)
+- **Found a bug?** Open an issue at [github.com/rakaarwaky/comander-arwaky/issues](https://github.com/rakaarwaky/comander-arwaky/issues)
 - **Have a feature idea?** Submit a feature request in the issues section
 - **Want to contribute code?** Fork the repository, create a branch, and submit a pull request
 - **Questions or discussions?** Start a discussion in the GitHub Discussions tab
@@ -1069,10 +1069,10 @@ Yes, when installed through npx or Smithery, Comander Arwaky automatically updat
 - Making surgical code changes with precise control
 
 ### I'm having trouble installing or using the tool. Where can I get help?
-Join our [Discord server](https://discord.gg/kQ27sNnZr7) for community support, check the [GitHub issues](https://github.com/wonderwhy-er/comander-arwaky/issues) for known problems, or review the [full FAQ](FAQ.md) for troubleshooting tips. You can also visit our [website FAQ section](https://desktopcommander.app#faq) for a more user-friendly experience. If you encounter a new issue, please consider [opening a GitHub issue](https://github.com/wonderwhy-er/comander-arwaky/issues/new) with details about your problem.
+Join our [Discord server](https://discord.gg/kQ27sNnZr7) for community support, check the [GitHub issues](https://github.com/rakaarwaky/comander-arwaky/issues) for known problems, or review the [full FAQ](FAQ.md) for troubleshooting tips. You can also visit our [website FAQ section](https://desktopcommander.app#faq) for a more user-friendly experience. If you encounter a new issue, please consider [opening a GitHub issue](https://github.com/rakaarwaky/comander-arwaky/issues/new) with details about your problem.
 
 ### How do I report security vulnerabilities?
-Please create a [GitHub Issue](https://github.com/wonderwhy-er/comander-arwaky/issues) with detailed information about any security vulnerabilities you discover. See our [Security Policy](SECURITY.md) for complete guidelines on responsible disclosure.
+Please create a [GitHub Issue](https://github.com/rakaarwaky/comander-arwaky/issues) with detailed information about any security vulnerabilities you discover. See our [Security Policy](SECURITY.md) for complete guidelines on responsible disclosure.
 
 ## Data Collection & Privacy
 

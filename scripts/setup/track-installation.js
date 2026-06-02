@@ -290,7 +290,7 @@ async function trackInstallation(installationData) {
                     platform: platform(),
                     installation_source: installationData.source,
                     installation_details: JSON.stringify(installationData.details),
-                    package_name: '@wonderwhy-er/desktop-commander',
+                    package_name: '@rakaarwaky/desktop-commander',
                     install_method: 'npm-lifecycle',
                     node_version: process.version,
                     npm_version: process.env.npm_version || 'unknown'

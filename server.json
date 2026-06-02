@@ -1,10 +1,10 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.wonderwhy-er/desktop-commander",
+  "name": "io.github.rakaarwaky/comander-arwaky",
   "title": "Desktop Commander",
   "description": "MCP server for terminal commands, file operations, and process management",
   "repository": {
-    "url": "https://github.com/wonderwhy-er/comander-arwaky",
+    "url": "https://github.com/rakaarwaky/comander-arwaky",
     "source": "github"
   },
   "version": "0.2.37",
@@ -12,7 +12,7 @@
     {
       "registryType": "npm",
       "registryBaseUrl": "https://registry.npmjs.org",
-      "identifier": "@wonderwhy-er/desktop-commander",
+      "identifier": "comander-arwaky",
       "version": "0.2.37",
       "transport": {
         "type": "stdio"

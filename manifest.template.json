@@ -13,11 +13,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP.git"
+    "url": "https://github.com/rakaarwaky/DesktopCommanderMCP.git"
   },
-  "homepage": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
-  "documentation": "https://github.com/wonderwhy-er/DesktopCommanderMCP/blob/main/FAQ.md",
-  "support": "https://github.com/wonderwhy-er/DesktopCommanderMCP/issues",
+  "homepage": "https://github.com/rakaarwaky/DesktopCommanderMCP",
+  "documentation": "https://github.com/rakaarwaky/DesktopCommanderMCP/blob/main/FAQ.md",
+  "support": "https://github.com/rakaarwaky/DesktopCommanderMCP/issues",
   "privacy_policies": ["https://legal.desktopcommander.app/privacy_desktop_commander_mcp"],
   "icon": "icon.png",
   "server": {

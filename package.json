@@ -2,11 +2,11 @@
   "name": "comander-arwaky",
   "version": "0.2.41",
   "description": "MCP server for terminal operations and file editing",
-  "mcpName": "io.github.wonderwhy-er/desktop-commander",
+  "mcpName": "io.github.rakaarwaky/desktop-commander",
   "license": "MIT",
   "author": "rakaarwaky <arwaky90@gmail.com>",
   "homepage": "https://github.com/rakaarwaky/comander-arwaky#readme",
-  "bugs": "https://github.com/wonderwhy-er/DesktopCommanderMCP/issues",
+  "bugs": "https://github.com/rakaarwaky/comander-arwaky/issues",
   "type": "module",
   "engines": {
     "node": ">=18.0.0"

@@ -12,10 +12,10 @@ description: >
   and edit code — all through the Model Context Protocol.
 
 author:
-  name: wonderwhy-er
-  url: https://github.com/wonderwhy-er
+  name: rakaarwaky
+  url: https://github.com/rakaarwaky
 
-repository: https://github.com/wonderwhy-er/DesktopCommanderMCP
+repository: https://github.com/rakaarwaky/DesktopCommanderMCP
 license: MIT
 
 categories:
@@ -48,7 +48,7 @@ capabilities:
   - data-analysis
 
 install:
-  npx: "@wonderwhy-er/desktop-commander"
+  npx: "@rakaarwaky/desktop-commander"
 
 runtime:
   language: typescript

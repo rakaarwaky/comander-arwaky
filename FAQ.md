@@ -1,6 +1,6 @@
 # Frequently Asked Questions (FAQ)
 
-This document provides answers to the most commonly asked questions about Claude Comander Arwaky (also known as ClaudeComputerCommander). If you can't find an answer to your question here, please join our [Discord server](https://discord.gg/kQ27sNnZr7) for additional support or [open a GitHub issue](https://github.com/wonderwhy-er/ClaudeComputerCommander/issues/new).
+This document provides answers to the most commonly asked questions about Claude Comander Arwaky (also known as ClaudeComputerCommander). If you can't find an answer to your question here, please join our [Discord server](https://discord.gg/kQ27sNnZr7) for additional support or [open a GitHub issue](https://github.com/rakaarwaky/ClaudeComputerCommander/issues/new).
 
 > **Note**: For a more user-friendly version of this FAQ, visit our [website FAQ section](https://desktopcommander.app#faq).
 
@@ -125,12 +125,12 @@ There are several ways to install:
 
 **Option 1: Via Smithery**
 ```bash
-npx -y @smithery/cli install @wonderwhy-er/comander-arwaky --client claude
+npx -y @smithery/cli install @rakaarwaky/comander-arwaky --client claude
 ```
 
 **Option 2: Direct installation**
 ```bash
-npx @wonderwhy-er/comander-arwaky setup
+npx @rakaarwaky/comander-arwaky setup
 ```
 
 **Option 3: Manual configuration**
@@ -142,7 +142,7 @@ Add the MCP server to your claude_desktop_config.json (on Mac, found at ~/Librar
       "command": "npx",
       "args": [
         "-y",
-        "@wonderwhy-er/comander-arwaky@latest"
+        "@rakaarwaky/comander-arwaky@latest"
       ]
     }
   }
@@ -151,7 +151,7 @@ Add the MCP server to your claude_desktop_config.json (on Mac, found at ~/Librar
 
 **Option 4: Local installation**
 ```bash
-git clone https://github.com/wonderwhy-er/ClaudeComputerCommander.git
+git clone https://github.com/rakaarwaky/ClaudeComputerCommander.git
 cd ClaudeComputerCommander
 npm run setup
 ```
@@ -413,7 +413,7 @@ Command blocking exists but can be bypassed through various methods. The current
 
 ### How do I report security vulnerabilities?
 
-Please create a [GitHub Issue](https://github.com/wonderwhy-er/comander-arwaky/issues) with detailed information about any security vulnerabilities you discover. See our [Security Policy](SECURITY.md) for full guidelines.
+Please create a [GitHub Issue](https://github.com/rakaarwaky/comander-arwaky/issues) with detailed information about any security vulnerabilities you discover. See our [Security Policy](SECURITY.md) for full guidelines.
 
 Claude Comander Arwaky doesn't have a pre-defined blocklist, but you can use the `block_command` and `unblock_command` functions to manage which commands Claude can execute. It's recommended to block commands that could potentially be destructive, such as `rm -rf` or `format`.
 
@@ -475,7 +475,7 @@ For complete beginners, platforms like Loveable might be easier as they handle d
 
 ## Troubleshooting
 
-Before diving into specific issues, check the [GitHub issues page](https://github.com/wonderwhy-er/ClaudeComputerCommander/issues) to see if your problem has already been reported and if there are any solutions or workarounds. If you discover a new issue, please consider [opening a GitHub issue](https://github.com/wonderwhy-er/ClaudeComputerCommander/issues/new) to help improve the tool for everyone.
+Before diving into specific issues, check the [GitHub issues page](https://github.com/rakaarwaky/ClaudeComputerCommander/issues) to see if your problem has already been reported and if there are any solutions or workarounds. If you discover a new issue, please consider [opening a GitHub issue](https://github.com/rakaarwaky/ClaudeComputerCommander/issues/new) to help improve the tool for everyone.
 
 ### Claude says it doesn't have permission to access my files/directories
 
