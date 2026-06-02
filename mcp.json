@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "desktop-commander": {
+      "command": "node",
+      "args": [
+        "/home/raka/mcp-servers/DesktopCommanderMCP/dist/index.js"
+      ]
+    }
+  }
+}

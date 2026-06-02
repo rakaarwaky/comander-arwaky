@@ -1,0 +1,13 @@
+{
+  "blockedCommands": [
+    "format",
+    "fdisk",
+    "dd",
+    "su",
+    "passwd",
+    "adduser",
+    "useradd",
+    "usermod",
+    "groupadd"
+  ]
+}
