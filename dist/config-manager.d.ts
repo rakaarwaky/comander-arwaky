@@ -1,0 +1,73 @@
+export interface ServerConfig {
+    blockedCommands?: string[];
+    defaultShell?: string;
+    allowedDirectories?: string[];
+    telemetryEnabled?: boolean;
+    fileWriteLineLimit?: number;
+    fileReadLineLimit?: number;
+    clientId?: string;
+    currentClient?: ClientInfo;
+    [key: string]: any;
+}
+export interface ClientInfo {
+    name: string;
+    version: string;
+}
+export declare function normalizeTelemetryEnabledValue(value: unknown): unknown;
+export declare function isTelemetryDisabledValue(value: unknown): boolean;
+/**
+ * Singleton config manager for the server
+ */
+declare class ConfigManager {
+    private configPath;
+    private config;
+    private initialized;
+    private _isFirstRun;
+    constructor();
+    /**
+     * Initialize configuration - load from disk or create default
+     */
+    init(): Promise<void>;
+    /**
+     * Alias for init() to maintain backward compatibility
+     */
+    loadConfig(): Promise<void>;
+    /**
+     * Create default configuration
+     */
+    private getDefaultConfig;
+    /**
+     * Save config to disk
+     */
+    private saveConfig;
+    /**
+     * Get the entire config
+     */
+    getConfig(): Promise<ServerConfig>;
+    /**
+     * Get a specific configuration value
+     */
+    getValue(key: string): Promise<any>;
+    /**
+     * Set a specific configuration value
+     */
+    setValue(key: string, value: any): Promise<void>;
+    /**
+     * Update multiple configuration values at once
+     */
+    updateConfig(updates: Partial<ServerConfig>): Promise<ServerConfig>;
+    /**
+     * Reset configuration to defaults
+     */
+    resetConfig(): Promise<ServerConfig>;
+    /**
+     * Check if this is the first run (config file was just created)
+     */
+    isFirstRun(): boolean;
+    /**
+     * Get or create a persistent client ID for analytics and A/B tests
+     */
+    getOrCreateClientId(): Promise<string>;
+}
+export declare const configManager: ConfigManager;
+export {};
